@@ -61,20 +61,12 @@
      <input type="hidden" name="domain" value="" />
    </form>  
    <div id="labMess" style="width:300px; color:red"><?php echo($mess)?></div>
-   <h3>Notes / Troubleshooting</h3>
+   <h3>Notes</h3>
    <ul>
-   	<li>Uploaded data is stored on the server for three days before being deleted. <i>The data is completely anonymous - no personal information is captured or stored.</i></li>
    	<li>Most likely you will want to look at the reports on a PC rather than your phone. To do this, copy the exported zip file to your
    		PC and then access this URL from your PC browser to upload the file. The reporting software will automatically uncompress the file
    		on the server. Alternatively, you can upload from your phone and you will get a unique reference number. Then in your PC browser, you can enter this reference to access your data.
    	</li>
-   	<li>If you get an error when uploading your file, there appears to be an issue with older Android versions (prior to 9) when
-   		you use the "Files" option from the browser to select the exported file. The file has a "zip" extension but if it shows a "csv"
-   		extension when you select it, the upload will fail. To resolve this you need to unzip the file first and then select the uncompressed ".csv" file.
-   		Alternatively, employ the point above where this issue will not occur.
-   		<br/>If you need to uncompress the file on your phone, a good app to do that is the Google "Files" app.
-   	</li>
- 
    </ul>
   
 </body>
