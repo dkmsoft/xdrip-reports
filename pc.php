@@ -43,13 +43,13 @@
 <body style="margin:20px 0px 20px 20px; font-family:'Open Sans', Verdana; width:550px; background-color:white">
    <h2><img src="xdrip_icon.png" style="width:26px" /> xDrip+ Reports</h2>
 	<p>Here you can upload your CGM glucose readings from xDrip+ and then produce reports.<br/>
-	If you want to use data you have uploaded within the last three days and you know your reference number,
+	If you want to use data you have uploaded and you know your reference number,
 		<a href="xdripreports.php">proceed to reports</a>.
 	</p>
 	<h3>Upload your data</h3>
 	You are not currently accessing this page from your Android device which has xDrip+ running.
 	If you have not already exported your data on your phone and copied the file to this PC, you need to do that first
-	by going to <span style="color:steelblue">xdrip.dkmgames.com</span> on your phone.
+	by accessing the home page on your phone rather than this device.
 
 	<p><b>Select the exported file then click Upload File</b></p>
 	<form id="form1" method="post" enctype="multipart/form-data" action="savefileupload.php"> 
@@ -58,9 +58,6 @@
      <input type="hidden" name="domain" value="" />
    </form>  
    <div id="labMess" style="width:300px; color:red"><?php echo($mess)?></div>
-   <h3>Notes</h3>
-
-   	Uploaded data is stored on the server for three days before being deleted. <i>The data is completely anonymous - no personal information is captured or stored.</i></li>
    
 </body>
 </html>
